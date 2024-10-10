@@ -28,7 +28,7 @@ public class ErrorValidationsTest extends BaseTest {
 	@Test(retryAnalyzer=Retry.class)	
 	public void ProductErrorValidation() throws IOException, InterruptedException {
 		String productName = "ZARA COAT 3";
-		ProductCatalogue productCatalogue = landingPage.loginApplication("harshitsrivastava1991@gmail.com", "Oct@1810");
+		ProductCatalogue productCatalogue = landingPage.loginApplication("harshitsrivastava19912@gmail.com", "Oct@1810");
 		productCatalogue.getProductList();
 		productCatalogue.addProductToCart(productName);
 		CartPage cartPage = productCatalogue.goToCartpage();
