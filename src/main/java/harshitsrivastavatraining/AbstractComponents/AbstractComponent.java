@@ -18,7 +18,7 @@ public class AbstractComponent {
 	WebDriver driver;
 //	how to enable the driver so that its conencted to all files-
 
-//	contructor created to get the connectivity  of deriver from child class landing page-
+//	Constructor created to get the connectivity  of deriver from child class landing page-
 	public AbstractComponent(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
